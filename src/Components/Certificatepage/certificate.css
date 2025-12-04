@@ -1,0 +1,46 @@
+.certificate-marquee {
+  overflow: hidden;      /* Hide scrollbars */
+  width: 100%;           /* Full width container */
+  background-color: #f9f9f9;
+  padding: 20px 20px;
+  text-align: center;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.certificate-track {
+  display: flex;
+  width: max-content;    /* Fit all boxes in a single line */
+  animation: scroll 19s linear infinite;
+  margin-top: 25px;
+}
+
+.certificate-box {
+  min-width: 250px;
+  height: 150px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  flex-shrink: 0;        /* Prevent shrinking */
+}
+.certificate-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.certificate-box:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move left by half of track for seamless loop */
+  }
+}

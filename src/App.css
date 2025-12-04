@@ -1,0 +1,20 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 28px;
+    background: linear-gradient(90deg, rgba(243, 197, 12, 0.664), rgba(237, 130, 8, 0.747));
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+button:hover {
+    color: white;
+    box-shadow: linear-gradient(90deg, rgba(243, 197, 12, 0.664), rgba(237, 130, 8, 0.747));
+}

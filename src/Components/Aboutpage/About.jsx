@@ -1,5 +1,5 @@
 import './About.css'
-import EzhilarsanDev from './../../assets/ezhilarasanDev.pdf'
+import EzhilarasanResume from './../../assets/Ezhil_Arasan_Resume.pdf'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
           I’m constantly learning new tools and improving my skills to build better, faster, and more polished web applications.
         </p>
 
-        <a href={EzhilarsanDev} download>
+        <a href={EzhilarasanResume} download>
           <button className="about-btn">Download My CV</button>
         </a>
 

@@ -6,7 +6,7 @@
   "homepage": "https://github.com/ezhilrond/portfolio/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "preview": "vite preview"

@@ -4,7 +4,6 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -30,6 +29,16 @@
   cursor: pointer;
   transition: color 0.3s ease;
 }
+.nav-links li {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.nav-links li:hover {
+  border-color: purple;
+  margin-top: 3px;
+}
+
 
 
 
@@ -58,7 +67,7 @@
     top: 70px;
     right: 0;
     width: 100%;
-    background: rgba(192, 192, 120, 0.815);
+    background-color: rgb(62, 0, 62);
     padding: 20px;
     gap: 20px;
     display: none;
@@ -70,6 +79,9 @@
   .nav-links li {
     padding: 7px;
     ;
+  }
+  .nav-links li:hover{
+    border: none;
   }
 
   .nav-links.active {

@@ -7,20 +7,23 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Desktop: 3 columns */
+    grid-template-columns: repeat(3, 1fr);
+    /* Desktop: 3 columns */
     gap: 20px;
     width: 90%;
     margin: 40px auto;
 }
 
 .project-box {
-    position: relative; /* needed for overlay button */
+    position: relative;
+    /* needed for overlay button */
     background: #4a90e2;
     height: 230px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
-    overflow: hidden; /* ensures button stays inside rounded corners */
+    overflow: hidden;
+    /* ensures button stays inside rounded corners */
 }
 
 .project-box img {
@@ -37,7 +40,7 @@
 }
 
 /* Overlay button */
-.project-box a  {
+.project-box a {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -45,22 +48,25 @@
     transform: translate(-50%, -50%);
     text-decoration: none;
 }
+
 .project-box h4 {
     position: absolute;
-    top: 10px; /* space from top */
+    top: 10px;
+    /* space from top */
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
     font-size: 18px;
     color: white;
-    z-index: 2; /* above the image */
+    z-index: 2;
+    /* above the image */
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 .project-box button {
     padding: 10px 20px;
-    background-color:transparent;
+    background-color: transparent;
     color: #fff;
     border: 0.4px solid;
     border-radius: 5px;

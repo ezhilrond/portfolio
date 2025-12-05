@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <div className="nav-container">
-            <h2 className="logo">EzhPortfolio.</h2>
+            <h2 className="logo"><span style={{color: "purple"}}>EzhilPortfolio.</span></h2>
 
             <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
                 {menuOpen ? "✖" : "☰"}
